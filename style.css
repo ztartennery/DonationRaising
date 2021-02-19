@@ -2,7 +2,8 @@
 
 body {background-color: hsl(195, 100%, 90%);}
 
-.big {font-size: 180%;
-margin: 8px;}
+.big {font-size: 185%;}
 
-#hkd {margin-left: 0px;}
+
+#mr {margin-right: 12px;}
+#ml {margin-right: 12px;}
