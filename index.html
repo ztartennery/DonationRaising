@@ -15,7 +15,9 @@
 </head>
 <body>
 
-  <script
+
+
+  <!-- <script
     src="https://www.paypal.com/sdk/js?client-id=AbfRbuRBm36mF00ylmtaNPhyai69RXEJ-HmJoe_Pn8x48z3LaQP9XAcpaIbu_F0Z0SGECVoh2HzvmpUY&currency=HKD"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
   </script>
 
@@ -45,23 +47,50 @@
     }
   }).render('#paypal-button-container');
   //This function displays Smart Payment Buttons on your web page.
-</script>
+</script> -->
+
+
+
 
 <h2 style="text-align: center;">Donation to a non-profit individal who writes articles without any political intention. You may pay any amount you want.</h2>
 
-<br><br><br><br>
+<br><br><br><br><br>
 
 
   <div id="smart-button-container">
-    <div style="text-align: center"><label id="mr" class="big" for="description">Write down your note here: </label><input class="big" type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
-      <p class="big" class="big" id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-    <div style="text-align: center"><label id="mr" class="big" for="amount">Amount in Hong Kong Dollor: </label><input class="big" name="amountInput" type="number" id="amount" value="" ><span class="big">HKD</span></div>
+    <div style="text-align: center"><label class="big mr" for="description">Write down your note here: </label><input class="big" type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
+
+      <p class="big" id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+
+
+      <br>
+
+
+    <div style="text-align: center"><label class="big mr" for="amount">Amount in Hong Kong Dollor: </label><input class="big" name="amountInput" type="number" id="amount" value="" ><span class="big">HKD</span></div>
+
+
       <p class="big" id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+
+
+
     <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
       <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+
+
+
+
     <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
   </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=HKD" data-sdk-integration-source="button-factory"></script>
+
+
+
+
+
+
+
+
+
+  <script src="https://www.paypal.com/sdk/js?client-id=AbfRbuRBm36mF00ylmtaNPhyai69RXEJ-HmJoe_Pn8x48z3LaQP9XAcpaIbu_F0Z0SGECVoh2HzvmpUY&currency=HKD" data-sdk-integration-source="button-factory"></script>
   <script>
   function initPayPalButton() {
     var description = document.querySelector('#smart-button-container #description');
