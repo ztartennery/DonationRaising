@@ -3,6 +3,8 @@
 body {background-color: hsl(195, 100%, 90%);}
 
 .big {font-size: 150%;}
+.inputAlign {text-align: right;}
+.textcolor {}
 
 
 .mr {margin-right: 5px;}
