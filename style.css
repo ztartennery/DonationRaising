@@ -1,1 +1,8 @@
 #smart-button-container {width: 100%;}
+
+body {background-color: hsl(195, 100%, 90%);}
+
+.big {font-size: 170%;
+margin: 8px;}
+
+#hkd {margin-left: 0px;}

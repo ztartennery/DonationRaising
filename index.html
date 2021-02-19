@@ -6,17 +6,17 @@
 <title>Donation</title>
 </head>
 <body>
-<h2>Donation to a non-profit individal who writes articles without any political intention. You may pay any amount you want.</h2>
+<h2 style="text-align: center;">Donation to a non-profit individal who writes articles without any political intention. You may pay any amount you want.</h2>
 
-
+<br><br><br><br><br>
 
 
 
 <div id="smart-button-container">
-    <div style="text-align: center"><label for="description">Please write down your note here </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
-      <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-    <div style="text-align: center"><label for="amount">Amount of donation in Hong Kong Dollor </label><input name="amountInput" type="number" id="amount" value="" ><span> HKD</span></div>
-      <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+    <div style="text-align: center"><label class="big" for="description">Write down your note here: </label><input class="big" type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
+      <p class="big" class="big" id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+    <div style="text-align: center"><label class="big" for="amount">Amount in Hong Kong Dollor: </label><input class="big" name="amountInput" type="number" id="amount" value="" ><span id="hkd" class="big">HKD</span></div>
+      <p class="big" id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
     <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
       <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
     <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
